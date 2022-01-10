@@ -16,15 +16,14 @@ const ResidentInfo = ({resident}) => {
 
     // Variables
     const {name, image, status, origin, episode} = residenteInfo
-    // console.log(residenteInfo)
 
     return (
-        <div>
-            <p>{name}</p>
-            <p>{status}</p>
-            <p>{origin?.name}</p>
-            <p>{episode?.length}</p>
+        <div className='card'>
             <img src={image} alt={`${name}`} />
+            <p><b>Name: </b> {name}</p>
+            <p><b>Status: </b> {status}</p>
+            <p><b>Origin: </b> {origin?.name}</p>
+            <p><b>Episodes where appear: </b> {episode?.length}</p>
         </div>
     )
 }

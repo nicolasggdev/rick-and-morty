@@ -2,13 +2,10 @@ import axios from 'axios'
 import React, { useEffect, useState } from 'react'
 
 // Styles
-import "./LocationInfo.styles.css"
+import "./LocationInfo.styles.css";
 
 // Componentes
-import ResidentsContainer from "../ResidentsContainer/ResidentsContainer.jsx"
-
-// Helpers
-
+import ResidentsContainer from "../ResidentsContainer/ResidentsContainer.jsx";
 
 const LocationInfo = () => {
 
@@ -29,15 +26,21 @@ const LocationInfo = () => {
 
     return (
         <div>
-            <div>
-                <h2> Location Name: {name} </h2>
-                <div className='location-data'>
-                    <h3> Type: {type} </h3>
-                    <h3> Dimension: {dimension} </h3>
-                    <h3> Population: {residents?.length} </h3>
+            <div className='location-data'>
+                <h2> {name} </h2>
+                <div>
+                    <p> <b>Type: </b> {type} </p>
+                    <p> <b>Dimension: </b> {dimension} </p>
+                    <p> <b>Population: </b> {residents?.length} </p>
                 </div>
             </div>
-            <ResidentsContainer residents={residents}/>
+            {
+                residents?.length !== 0 ? (
+                    <ResidentsContainer residents={residents}/>
+                ) : (
+                    <p className='population-alert'>There aren't population here</p>
+                )
+            }
         </div>
     )
 }

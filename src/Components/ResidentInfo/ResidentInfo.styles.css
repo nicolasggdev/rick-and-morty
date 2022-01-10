@@ -1,0 +1,63 @@
+.card{
+    background-color: #3e8e7e83;
+    margin: auto;
+    margin-bottom: 2rem;
+    width: 80%;
+    border-radius: 1rem;
+}
+
+.card img {
+    width: 100%;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    margin-bottom: 0.5rem;
+}
+.card p{
+    text-align: start;
+    margin-bottom: 0.1rem;
+    padding: 0.3rem;
+}
+
+.card p b{
+    color: #FABB51;
+}
+
+@media only screen and (min-width: 576px){
+    .card{
+        display: inline-block;
+        height: 30rem;
+        width: 40%;
+        margin-left: 0.4rem;
+        margin-right: 0.4rem;
+        margin-bottom: none;
+    }
+}
+
+@media only screen and (min-width: 860px){
+    .card{
+        height: 32rem;
+    }
+}
+
+@media only screen and (min-width: 920px){
+    .card{
+        height: 34rem;
+    }
+}
+
+@media only screen and (min-width: 992px){
+    .card{
+        height: 28rem;
+        width: 25%;
+    }
+}
+
+@media only screen and (min-width: 1400px){
+    .card{
+        height: 29rem;
+        width: 20%;
+    }
+}
+
+
+

@@ -16,7 +16,7 @@ const ResidentsContainer = ({residents}) => {
     }
 
     return (
-        <div>
+        <div className='residents-title'>
             <h4>Residents</h4>
             <>
                 {
