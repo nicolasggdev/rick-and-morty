@@ -18,13 +18,15 @@ const ResidentInfo = ({resident}) => {
     const {name, image, status, origin, episode} = residenteInfo
 
     return (
-        <div className='card'>
-            <img src={image} alt={`${name}`} />
-            <p><b>Name: </b> {name}</p>
-            <p><b>Status: </b> {status}</p>
-            <p><b>Origin: </b> {origin?.name}</p>
-            <p><b>Episodes where appear: </b> {episode?.length}</p>
-        </div>
+        <div className="column">
+            <div className='card'>
+                <img src={image} alt={`${name}`} />
+                <p><b>Name: </b> {name}</p>
+                <p><b>Status: </b> {status}</p>
+                <p><b>Origin: </b> {origin?.name}</p>
+                <p><b>Episodes where appear: </b> {episode?.length}</p>
+            </div>
+       </div>
     )
 }
 

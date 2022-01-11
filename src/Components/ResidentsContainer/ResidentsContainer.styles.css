@@ -9,3 +9,8 @@
     margin-bottom: 1rem;
     font-size: 2rem;
 }
+
+.residents-list{
+    display: flex;
+    flex-wrap: wrap;
+}

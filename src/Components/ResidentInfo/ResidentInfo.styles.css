@@ -1,9 +1,14 @@
+.column{
+    padding: 15px;
+    width: 100%;
+}
+
 .card{
     background-color: #3e8e7e83;
-    margin: auto;
-    margin-bottom: 2rem;
     width: 80%;
     border-radius: 1rem;
+    width: 100%;
+    height: 100%;
 }
 
 .card img {
@@ -16,8 +21,7 @@
 }
 .card p{
     text-align: start;
-    margin-bottom: 0.1rem;
-    padding: 0.3rem;
+    padding: 10px;
 }
 
 .card p b{
@@ -25,41 +29,23 @@
 }
 
 @media only screen and (min-width: 576px){
-    .card{
-        display: inline-block;
-        height: 30rem;
-        width: 40%;
-        margin-left: 0.4rem;
-        margin-right: 0.4rem;
-        margin-bottom: none;
+    .column{
+        width: 50%;
     }
 }
 
 @media only screen and (min-width: 860px){
-    .card{
-        height: 32rem;
-    }
-}
-
-@media only screen and (min-width: 920px){
-    .card{
-        height: 34rem;
+    .column{
+        width: 33.33333%;
     }
 }
 
 @media only screen and (min-width: 992px){
-    .card{
-        height: 28rem;
+    .column{
         width: 25%;
     }
 }
 
-@media only screen and (min-width: 1400px){
-    .card{
-        height: 29rem;
-        width: 20%;
-    }
-}
 
 
 

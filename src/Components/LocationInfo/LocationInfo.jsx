@@ -23,12 +23,11 @@ const LocationInfo = () => {
         .catch(err => console.log(err))
     },[]);
 
-    // Functions
-    const randomNumber = () => Math.floor((Math.random() * 126)+1);
-
     // Variables
     const {name, type, dimension, residents} = data;
 
+    // Functions
+    const randomNumber = () => Math.floor((Math.random() * 126)+1);
 
     return (
         <div>

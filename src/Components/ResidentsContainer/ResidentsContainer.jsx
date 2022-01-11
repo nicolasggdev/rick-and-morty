@@ -18,11 +18,11 @@ const ResidentsContainer = ({residents}) => {
     return (
         <div className='residents-title'>
             <h4>Residents</h4>
-            <>
+            <div className='residents-list'>
                 {
                     residents?.map(resident => <ResidentInfo resident={resident} key={key(resident)}/>)
                 }
-            </>
+            </div>
         </div>
     )
 }
