@@ -1,25 +1,38 @@
-.location-data{
-    margin: auto;
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
-    width: 80%;
+.location-data {
+  margin: auto;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  width: 80%;
+}
+
+.location-data h2 {
+  font-size: 1.2rem;
 }
 
 .location-data div {
-    margin-top: 1rem;
+  margin-top: 1rem;
 }
 
 .location-data div p {
-    display: block;
-    text-align: start;
-    margin-top: 0.2rem;
-    margin-bottom: 0.2rem;
+  display: block;
+  text-align: start;
+  margin-top: 0.2rem;
+  margin-bottom: 0.2rem;
 }
 
-.population-alert{
-    margin: auto;
-    margin-top: 5rem;
-    height: 15rem;
-    width: 17.5rem;
-    font-size: 3rem;
+.population-alert {
+  margin: auto;
+  margin-top: 5rem;
+  height: 15rem;
+  width: 80%;
+  font-size: 1.5rem;
+}
+
+@media only screen and (min-width: 300px) {
+  .location-data h2 {
+    font-size: 1.5rem;
+  }
+  .population-alert {
+    font-size: 2.5rem;
+  }
 }

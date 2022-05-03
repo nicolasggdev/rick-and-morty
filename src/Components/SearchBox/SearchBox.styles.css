@@ -1,67 +1,99 @@
-.container-filter{
-    margin: auto;
-    width: 80%;
+.container-filter {
+  margin: auto;
+  width: 80%;
 }
 
-.container-filter input,.container-filter select{
-    outline: none;
+.container-filter input,
+.container-filter select {
+  outline: none;
 }
 
-select{
-    background-color: transparent;
-    border: 1px solid #FFFFFF;
-    border-radius: 1rem;
-    padding: 0.1rem;
-    width: 10rem;
-    text-align: center;
-    height: 2rem;
-    cursor: pointer;
+select {
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  border-radius: 1rem;
+  padding: 0.1rem;
+  width: 9rem;
+  text-align: center;
+  height: 2rem;
+  cursor: pointer;
 }
 
-select option{
-    color: #0F0E0E;
+select option {
+  color: #0f0e0e;
 }
 
-input{
-    color: #FFFFFF;
-    background-color: transparent;
-    border: 1px solid #FFFFFF;
-    border-radius: 1rem;
-    padding: 0.3rem;
-    width: 10rem;
-    height: 2rem;
+input {
+  color: #ffffff;
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  border-radius: 1rem;
+  padding: 0.3rem;
+  width: 9rem;
+  height: 2rem;
 }
 
-input::placeholder{
-    color: #ffffffbb;
-    text-align: center;
+input::placeholder {
+  color: #ffffffbb;
+  text-align: center;
 }
 
-.filter{
-    margin-bottom: 1rem;
+.filter {
+  margin-bottom: 0.5rem;
 }
 
-.filter span{
+select {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+input {
+  margin-bottom: 0.5rem;
+}
+
+button {
+  background-color: #3e8e7e83;
+  border: none;
+  border-radius: 50%;
+  height: 2rem;
+  width: 2rem;
+  cursor: pointer;
+}
+
+button svg {
+  width: 60%;
+  height: 60%;
+}
+
+button:hover {
+  background-color: #fabb51;
+}
+
+@media only screen and (min-width: 220px) {
+  input {
+    width: 8.5rem;
     margin-right: 0.5rem;
-}
-
-.filter button{
+    margin-bottom: 0;
+  }
+  .filter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  select {
+    margin-bottom: 0;
+    margin-top: 0;
+    margin-right: 0.5rem;
     margin-left: 0.5rem;
+    width: 8.5rem;
+  }
 }
 
-button{
-    background-color: #3e8e7e83;
-    border: none;
-    border-radius: 50%;
-    height: 2rem;
-    width: 2rem;
-}
-
-button svg{
-    width: 60%;
-    height: 60%;
-}
-
-button:hover{
-    background-color: #FABB51;
+@media only screen and (min-width: 576px) {
+  input {
+    width: 10rem;
+  }
+  select {
+    width: 10rem;
+  }
 }

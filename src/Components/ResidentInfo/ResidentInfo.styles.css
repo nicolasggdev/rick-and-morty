@@ -1,51 +1,48 @@
-.column{
-    padding: 15px;
-    width: 100%;
+.column {
+  padding: 15px;
+  width: 100%;
 }
 
-.card{
-    background-color: #3e8e7e83;
-    width: 80%;
-    border-radius: 1rem;
-    width: 100%;
-    height: 100%;
+.card {
+  background-color: #3e8e7e83;
+  width: 80%;
+  border-radius: 1rem;
+  width: 100%;
+  height: 100%;
 }
 
 .card img {
-    max-height: 60%;
-    max-width: 100%;
-    width: 100%;
-    border-top-left-radius: 1rem;
-    border-top-right-radius: 1rem;
-    margin-bottom: 0.5rem;
+  max-height: 60%;
+  max-width: 100%;
+  width: 100%;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  margin-bottom: 0.5rem;
 }
-.card p{
-    text-align: start;
-    padding: 10px;
-}
-
-.card p b{
-    color: #FABB51;
+.card p {
+  text-align: start;
+  padding: 10px;
+  overflow: auto;
 }
 
-@media only screen and (min-width: 576px){
-    .column{
-        width: 50%;
-    }
+.card p b {
+  color: #fabb51;
 }
 
-@media only screen and (min-width: 860px){
-    .column{
-        width: 33.33333%;
-    }
+@media only screen and (min-width: 576px) {
+  .column {
+    width: 50%;
+  }
 }
 
-@media only screen and (min-width: 992px){
-    .column{
-        width: 25%;
-    }
+@media only screen and (min-width: 860px) {
+  .column {
+    width: 33.33333%;
+  }
 }
 
-
-
-
+@media only screen and (min-width: 992px) {
+  .column {
+    width: 25%;
+  }
+}
