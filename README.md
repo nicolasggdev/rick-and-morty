@@ -1,70 +1,81 @@
-# Getting Started with Create React App
+# Rick and Morty App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Aplicación sobre la serie animada Rick y Morty. Cuando inicias la app te mostrará tarjetas de personajes aleatorios según una ubicación (también aleatoria), luego podrás filtrar por nombre, estado, especie y género y navegar entre páginas cuando poseemos demasiados personajes. Las tarjetas de cada personaje trae información sobre su nombre, estado, origen y episodios donde apareció. Es importante reconocer que esta App consume los datos de la siguiente API: https://rickandmortyapi.com/
 
-## Available Scripts
+## Deploy
 
-In the project directory, you can run:
+https://rick-and-mortyngg.netlify.app/
+
+## Inicia el proyecto
+
+Si desea ver el proyecto localmente, debes clonar e instalar las dependencias para ver correctamente la App.
+
+## Instación
+
+### `npm install`
+
+En el directorio del proyecto, debe usar npm i y esperar la instalación de los siguientes programas:
+
+<ul>
+  <li>react</li>
+  <li>axios</li>
+  <li>sweetalert</li>
+</ul>
+
+## Inicio
 
 ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+En el directorio del proyecto, debe usar npm start y se abrirá http://localhost:3000 en una pestaña de tu navegador predeterminado.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<div display="flex">
+  <img height="400px" width="400px" src="./src/Components/Captures/Captura1.PNG">
+  <img height="400px" width="400px" src="./src/Components/Captures/Captura2.PNG">
+</div>
 
-### `npm test`
+Si tienes alguna sugerencia o comentario escribeme a mi correo o a mi perfil de linkedin y con gusto lo tomare en cuenta!!
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+LinkedIn: https://www.linkedin.com/in/nicolasggdev/
 
-### `npm run build`
+E-mail: nicolasggdev@gmail.com
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Rick and Morty App
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Application about the animated series Rick and Morty. When you start the app it will show you random character cards according to a location (also random), then you can filter by name, status, species and gender and navigate between pages when we have too many characters. The cards of each character bring information about his name, status, origin and episodes where he appeared. It is important to recognize that this App consumes data from the following API: https://rickandmortyapi.com/
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Deploy
 
-### `npm run eject`
+https://rick-and-mortyngg.netlify.app/
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Start the project
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+If you want to view the project locally, you must clone and install the dependencies to properly view the App.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Install
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### `npm install`
 
-## Learn More
+In the project directory, you need to use npm and wait for the installation of the following programs:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<ul>
+  <li>react</li>
+  <li>axios</li>
+  <li>sweetalert</li>
+</ul>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Start
 
-### Code Splitting
+### `npm start`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+In the project directory, you should use npm start and it will open http://localhost:3000 in a tab of your default browser.
 
-### Analyzing the Bundle Size
+<div display="flex">
+  <img height="400px" width="400px" src="./src/Components/Captures/Captura1.PNG">
+  <img height="400px" width="400px" src="./src/Components/Captures/Captura2.PNG">
+</div>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+If you have any suggestions or feedback, write to my email or my linkedin profile and I will gladly take it into account!!
 
-### Making a Progressive Web App
+LinkedIn: https://www.linkedin.com/in/nicolasggdev/
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+E-mail: nicolasggdev@gmail.com
