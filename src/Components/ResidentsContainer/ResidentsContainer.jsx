@@ -45,8 +45,6 @@ const ResidentsContainer = ({ residents, newResidents }) => {
     }
   };
 
-  console.log(data);
-
   const handdlePrevPage = (e) => {
     e.preventDefault();
 
