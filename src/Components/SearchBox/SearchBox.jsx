@@ -1,5 +1,5 @@
 import axios from "axios";
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import swal from "sweetalert";
 
 // Styles
@@ -29,7 +29,9 @@ const SearchBox = ({ filterResident }) => {
     }
   };
 
-  filterResident(data, filter, filterType);
+  useEffect(() => {
+    filterResident(data, filter, filterType);
+  }, [filterResident, data, filter, filterType]);
 
   const search = () => {
     if (filterType === "name") {
